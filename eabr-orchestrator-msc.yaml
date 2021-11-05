@@ -1,37 +1,32 @@
-com:
-  eabr:
-    routes:
-      input: /Documents/EDI?noop=False&delete=True&delay=3000
-      apiUrl: http://50.17.159.2:8000/v1/travel
-      maximumRedeliveries: 3
-    chunkcontrol:
-      chunkSize: 100
-    isuredgenerator:
-      delimiter: ;
-      fileFields:
-        - bkg
-        - inscode
-        - purchasedate
-        - itemstatus
-        - inscxldate
-        - inscostcurrency
-        - inscostamount
-        - currencycode
-        - insuranceamt
-        - bookinpayments
-        - mastercruise
-        - cruiseitemstatus
-        - embarkation
-        - lenghtofstay
-        - paxlastname
-        - paxfirstname
-        - dateofbirth
-        - guestage
-        - passportno
-        - fiscalcode
-        - shipcode
-        - canvas
-        - agentid
-        - agencyemail
-        - paxemail1
-        - paxemail2
+input: /Documents/EDI?noop=False&delete=True&delay=3000
+apiUrl: http://50.17.159.2:8000/v1/travel
+maximumRedeliveries: 3
+chunkSize: 100
+delimiter: ;
+fileFields:
+  - bkg
+  - inscode
+  - purchasedate
+  - itemstatus
+  - inscxldate
+  - inscostcurrency
+  - inscostamount
+  - currencycode
+  - insuranceamt
+  - bookinpayments
+  - mastercruise
+  - cruiseitemstatus
+  - embarkation
+  - lenghtofstay
+  - paxlastname
+  - paxfirstname
+  - dateofbirth
+  - guestage
+  - passportno
+  - fiscalcode
+  - shipcode
+  - canvas
+  - agentid
+  - agencyemail
+  - paxemail1
+  - paxemail2
