@@ -1,5 +1,6 @@
+kaTest: Hello EABR
 input: /Documents/EDI?noop=False&delete=True&delay=3000
-apiUrl: http://50.17.159.2:8000/v1/travel
+apiUrl: http://api-dev.europ-assistance.com.br/v1/edi/travel
 maximumRedeliveries: 3
 chunkSize: 100
 delimiter: ;
