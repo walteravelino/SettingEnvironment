@@ -1,4 +1,4 @@
-kaTest: EABR
+kaTest: http://api-dev.europ-assistance.com.br/v1/edi/travel
 input: /Documents/EDI?noop=False&delete=True&delay=3000
 apiUrl: TESTE
 maximumRedeliveries: 21
