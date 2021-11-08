@@ -1,7 +1,7 @@
 kaTest: EABR
 input: /Documents/EDI?noop=False&delete=True&delay=3000
-apiUrl: http://api-dev.europ-assistance.com.br/v1/edi/travel
-maximumRedeliveries: 3
+apiUrl: TESTE
+maximumRedeliveries: 21
 chunkSize: 100
 delimiter: ;
 fileFields:
@@ -18,6 +18,7 @@ fileFields:
   - mastercruise
   - cruiseitemstatus
   - embarkation
+  - disembarkation
   - lenghtofstay
   - paxlastname
   - paxfirstname
